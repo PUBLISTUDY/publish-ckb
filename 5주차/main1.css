@@ -1,0 +1,352 @@
+
+@media screen and (max-width: 900px) {
+
+    .pc {
+        display: none !important;
+    }
+
+    body .center-body .search-bar {
+        padding: 32px 50px 0 50px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        gap:24px;
+    }
+
+    body .center-body .search-input {
+        height: 52px;
+        padding: 0 16px 0 16px;
+        border-radius: 6px;
+        border: solid 1px rgba(203, 203, 203, 1);
+
+    }
+
+    body .center-body .search-btn {
+        height: 52px;
+        padding: 10px 26px 10px 26px;
+        border-radius: 6px;
+        background: rgba(18, 18, 18, 1);
+        color: white;
+    }
+
+
+    .logo-explain {
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(96, 95, 95, 1);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    footer {
+        background: rgba(250, 250, 251, 1);
+        display: flex;
+        flex-direction: column;
+        padding: 75px 52px 200px 52px;
+        position: relative;
+    }
+
+    .logo-icon {
+        display: flex;
+        gap:16px;
+        position: absolute;
+        bottom: 70px;
+        width: calc(100% - 104px);
+        justify-content: center;
+    }
+
+    footer .footer-bottom .year {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        color:rgba(62, 62, 89, 1);
+        position: absolute;
+        bottom: 38px;
+        width: calc(100% - 104px);
+        text-align: center;
+    }
+    .footer-box {
+        position: absolute;
+        bottom: 135px;
+        display: flex;
+        justify-content: center;
+        width: calc(100% - 104px);
+        gap: 20px;
+    }
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  18px 10px;
+    }
+    .footer-right {
+        margin: 10px 0 10px 0;
+        padding: 0;
+        position: relative;
+    }
+
+    .footer-right li:not(:first-child) {
+        display: none;
+    }
+
+    .footer-right li:first-child {
+        list-style:none;
+        color: rgba(18, 18, 18, 1);
+        /*margin-bottom: 16px;*/
+        font-size: 14px;
+        font-weight: 500;
+        border-bottom: solid 1px rgba(203, 203, 203, 1);
+        padding-bottom: 10px;
+    }
+
+    footer .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    footer .footer-explain {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+        margin: 0;
+    }
+
+    body .search-result {
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .mb {
+        display: none !important;
+    }
+
+
+    body .center-body .search-bar {
+        padding: 32px 147.5px 0 147.5px;
+        display: flex;
+        justify-content: center;
+        gap:24px;
+    }
+
+    body .center-body .search-btn {
+        height: 52px;
+        padding: 10px 26px 10px 26px;
+        border-radius: 6px;
+        background: rgba(18, 18, 18, 1);
+        color: white;
+    }
+
+    body .center-body .search-input {
+        min-width: 450px;
+        height: 52px;
+        padding: 0 16px 0 16px;
+        border-radius: 6px;
+        border: solid 1px rgba(203, 203, 203, 1);
+    }
+
+    footer .main-footer {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .logo-explain {
+        width: 300px;
+        font-family: Inter;
+        font-size: 16px;
+        font-weight: 400;
+        color: rgba(96, 95, 95, 1);
+        margin-top: 16px;
+        margin-bottom: 24px;
+    }
+
+    footer {
+        background: rgba(250, 250, 251, 1);
+        display: flex;
+        flex-direction: column;
+        padding: 75px 52px 20px 52px;
+    }
+    .logo-icon {
+        display: flex;
+        gap:16px;
+    }
+
+    footer .footer-bottom .year {
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        color:rgba(62, 62, 89, 1);
+    }
+
+    .footer-box {
+        display: flex; gap:38px; align-content: center
+    }
+
+
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding:  18px 52px;
+    }
+
+    .footer-right li {
+        list-style: none;
+        font-family: Inter;
+        font-size: 14px;
+        font-weight: 400;
+        color: rgba(62, 62, 89, 1);
+        margin-bottom: 12px;
+    }
+
+    .footer-right li:first-child {
+        color: rgba(18, 18, 18, 1);
+        margin-bottom: 16px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    footer .footer-bottom {
+        padding-top: 24px;
+        display: flex;
+        justify-content: space-between;
+        border-top: solid 1px black ;
+        align-items: center;
+    }
+
+    footer .footer-explain {
+        display: flex;
+        gap: 120px;
+        margin-bottom: 20px;
+    }
+
+    body .search-result {
+        padding: 72px 0 32px  0;
+        text-align: center;
+        font-family: Space Grotesk;
+        font-size: 40px;
+        font-weight: 500;
+        margin-bottom: 16px;
+    }
+}
+
+
+
+
+.logo {
+    min-width: 161px;
+}
+
+.logo img[alt=header-icon] {
+    margin-right: 7px;
+}
+
+header .header-main {
+    display: flex;
+    gap: 40px;
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+header .header-main img {
+    margin-left: 2px;
+}
+
+header .header-icons {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+body .search-result .explain {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+body .search-result .explain .home {
+    color: rgba(96, 95, 95, 1);
+
+}
+
+body .search-result .explain .image {
+    margin-left: 4px;
+    margin-right: 16px;
+}
+
+body .center-body {
+    padding: 120px 0 250px 0;
+    text-align: center;
+}
+
+body .center-body .Nothing {
+    font-family: Space Grotesk;
+    font-size: 34px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+body .center-body .explain {
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(62, 62, 89, 1);
+}
+
+
+
+
+
+
+
+body .center-body .search-input::placeholder {
+    color: rgba(167, 167, 167, 1);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+footer .footer-bottom img {
+    margin-left: 6px;
+}
+
+
+
+footer .footer-bottom div {
+    color: rgba(18, 18, 18, 1);
+    font-family: Space Grotesk;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+.fzf div {
+    width: 540px;
+    margin: auto;
+}
+
+.top-body {
+    padding: 288px 0;
+    text-align: center;
+}
+
+.fzf-btn {
+    margin-top: 24px;
+    background: rgba(18, 18, 18, 1);
+    color: white;
+    width: 171px;
+    height: 52px;
+    padding: 10px 26px 10px 26px;
+    border-radius: 6px
+}
